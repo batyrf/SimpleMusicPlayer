@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">SimpleMusicPlayer</string>
+    <string name="title_feature_all">Module Title</string>
+    <string name="title_feature_cloud">Module Title</string>
+    <string name="title_feature_saved">Module Title</string>
+    <string name="title_feature_home">Home</string>
+    <string name="title_feature_favorite">Favorite</string>
+</resources>

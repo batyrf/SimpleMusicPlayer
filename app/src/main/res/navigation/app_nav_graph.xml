@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/app_navigation_graph"
+    app:startDestination="@id/featureHomeNavGraph">
+
+    <include-dynamic
+        android:id="@+id/featureHomeNavGraph"
+        app:graphResName="feature_home_nav_graph"
+        app:moduleName="feature_home" />
+
+<!--    <include-dynamic-->
+<!--        android:id="@+id/featureSavedNavGraph"-->
+<!--        app:graphResName="feature_saved_nav_graph"-->
+<!--        app:moduleName="feature_saved" />-->
+
+    <include-dynamic
+        android:id="@+id/featureFavoriteNavGraph"
+        app:graphResName="feature_favorite_nav_graph"
+        app:moduleName="feature_favorite" />
+
+</navigation>
