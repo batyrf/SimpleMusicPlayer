@@ -47,6 +47,7 @@ class HomeFragment : Fragment() {
         super.onViewCreated(view, savedInstanceState)
         Log.d("viridis", "SimpleMusicPlayer.onViewCreated")
 
+
         repository.getList()
             .subscribeOn(Schedulers.io())
             .subscribe(
