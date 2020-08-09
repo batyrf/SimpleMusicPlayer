@@ -46,8 +46,6 @@ class HomeFragment : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
         Log.d("viridis", "SimpleMusicPlayer.onViewCreated")
-
-
         repository.getList()
             .subscribeOn(Schedulers.io())
             .subscribe(
