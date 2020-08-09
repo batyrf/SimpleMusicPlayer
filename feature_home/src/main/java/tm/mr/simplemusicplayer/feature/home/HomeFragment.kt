@@ -30,6 +30,7 @@ class HomeFragment : Fragment() {
     }
 
     override fun onCreate(savedInstanceState: Bundle?) {
+
         DaggerHomeComponent.builder()
             .context(this.requireContext())
             .appDependencies(
