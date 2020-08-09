@@ -24,6 +24,8 @@ android {
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
     }
 
+    ndkVersion = "21.3.6528147"
+
     buildTypes {
         getByName("release") {
             isMinifyEnabled = false
